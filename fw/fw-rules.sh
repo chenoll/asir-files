@@ -3,7 +3,7 @@
 if [ $# -ne 1 ]
         then 
         echo "necesito un parámetro [ start | stop ]"
-exit 1
+	exit 1
 fi
 
 case $1 in
